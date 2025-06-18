@@ -98,7 +98,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden premium-shadow">
               <img 
-                src="public/novo-relogio.jpeg"
+                src="/novo-relogio.jpeg"
                 alt="Orbit Manufacture"
                 className="w-full h-full object-cover"
               />
