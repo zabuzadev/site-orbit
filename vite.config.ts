@@ -1,13 +1,13 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import path from "path";
-import { componentTagger } from "lovable-tagger";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import path from 'path'
+import { componentTagger } from 'lovable-tagger'
 
 export default defineConfig({
-  base: '/site-orbit/',  // 👈 CORRETO para GitHub Pages
+  base: process.env.NODE_ENV === 'production' ? './' : '/', // Corrige preview e deploy na Vercel
   plugins: [
     react(),
-    componentTagger(),    // 👈 Só se você realmente estiver usando o Lovable Tagger, senão pode remover
+    componentTagger() // Mantenha isso apenas se realmente estiver usando o lovable-tagger
   ],
   server: {
     host: true,
@@ -17,7 +17,10 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
+      '@': path.resolve(__dirname, './src') // Atalho para importar de src
+    }
   },
-});
+  build: {
+    outDir: 'dist' // Garante que o build vá para a pasta que a Vercel espera
+  }
+})
