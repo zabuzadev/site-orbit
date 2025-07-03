@@ -148,7 +148,7 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
                 <Award className="h-4 w-4 sm:h-5 sm:w-5 text-slate-50" />
                 <div>
-                  <div className="text-lg sm:text-xl font-bold text-slate-50">150+</div>
+                  <div className="text-lg sm:text-xl font-bold text-slate-50">30+</div>
                   <div className="text-xs sm:text-sm text-slate-300">Anos de Tradição</div>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
                 <Gem className="h-4 w-4 sm:h-5 sm:w-5 text-slate-50" />
                 <div>
-                  <div className="text-lg sm:text-xl font-bold text-slate-50">50K+</div>
+                  <div className="text-lg sm:text-xl font-bold text-slate-50">1000+</div>
                   <div className="text-xs sm:text-sm text-slate-300">Clientes Exclusivos</div>
                 </div>
               </div>
