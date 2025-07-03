@@ -24,8 +24,8 @@ const Contatos: React.FC = () => {
           <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-700/50 hover:border-slate-600 transition-colors">
             <Phone className="h-8 w-8 text-slate-50 mb-4" />
             <h3 className="text-xl font-medium text-slate-50 mb-2">Telefone</h3>
-            <p className="text-slate-300">+55 (11) 3456-7890</p>
-            <p className="text-slate-300">+55 (11) 98765-4321</p>
+            <p className="text-slate-300">+55 (11) 93474-25500</p>
+
             <button
               onClick={() => handleWhatsAppClick("Olá! Gostaria de saber mais sobre os relógios.")}
               className="mt-4 w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3 px-4 rounded-md flex items-center justify-center space-x-3 transition-all duration-300 shadow-lg hover:shadow-emerald-700/30"

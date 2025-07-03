@@ -31,14 +31,14 @@ const Footer = () => {
 
             {/* Collections */}
             <div>
-              <h3 className="text-xl font-playfair font-bold mb-8 text-luxury-gold">COLEÇÕES</h3>
+              <h3 className="text-xl font-playfair font-bold mb-8 text-luxury-gold">MARCAS</h3>
               <ul className="space-y-4 text-luxury-silver">
-                <li><a href="#" className="hover:text-luxury-gold transition-colors">Heritage Collection</a></li>
-                <li><a href="#" className="hover:text-luxury-gold transition-colors">Platinum Series</a></li>
-                <li><a href="#" className="hover:text-luxury-gold transition-colors">Royal Diamond</a></li>
-                <li><a href="#" className="hover:text-luxury-gold transition-colors">Sport Titanium</a></li>
-                <li><a href="#" className="hover:text-luxury-gold transition-colors">Vintage Classic</a></li>
-                <li><a href="#" className="hover:text-luxury-gold transition-colors">Edições Limitadas</a></li>
+                <li><a href="#" className="hover:text-luxury-gold transition-colors">ROLEX</a></li>
+                <li><a href="#" className="hover:text-luxury-gold transition-colors">TAGHEUER</a></li>
+                <li><a href="#" className="hover:text-luxury-gold transition-colors">PATEK PHILIPPE</a></li>
+                <li><a href="#" className="hover:text-luxury-gold transition-colors">CARTIER</a></li>
+                <li><a href="#" className="hover:text-luxury-gold transition-colors">IWC</a></li>
+                <li><a href="#" className="hover:text-luxury-gold transition-colors">BREITLING</a></li>
               </ul>
             </div>
 
@@ -62,18 +62,18 @@ const Footer = () => {
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-luxury-gold mt-1 flex-shrink-0" />
                   <p>
-                    Avenida Paulista, 1578<br />
-                    Bela Vista - São Paulo, SP<br />
-                    CEP: 01310-200
+                    <br />
+                     São Paulo, SP<br />
+                   
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-luxury-gold" />
-                  <p>+55 (11) 3256-8900</p>
+                  <p>+55 (11) 93474-2550</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-luxury-gold" />
-                  <p>concierge@luxustime.com.br</p>
+                  <p>contato@orbitwatch.com.br</p>
                 </div>
               </div>
 

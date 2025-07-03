@@ -29,21 +29,21 @@ const Header = () => {
             <div className="flex flex-wrap items-center justify-center sm:justify-start space-x-3 sm:space-x-6">
               <div className="flex items-center space-x-2">
                 <Phone className="h-3 w-3 text-slate-50" />
-                <span className="hidden sm:inline">+55 (11) 3456-7890</span>
-                <span className="sm:hidden">(11) 3456-7890</span>
+                <span className="hidden sm:inline">+55 (11) 93474-2550</span>
+              
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-3 w-3 text-slate-50" />
-                <span className="hidden sm:inline">contato@orbit.com</span>
+                <span className="hidden sm:inline">contato@orbitwatch.com.br</span>
                 <span className="sm:hidden">contato</span>
               </div>
               <div className="hidden lg:flex items-center space-x-2">
                 <MapPin className="h-3 w-3 text-slate-50" />
-                <span>São Paulo, SP</span>
+                <span>FRETE PARA TODO BRASIL</span>
               </div>
             </div>
             <div className="flex space-x-2 sm:space-x-4 text-xs">
-              <Link to="/contatos" className="hover:text-slate-50 transition-colors">Atendimento</Link>
+              <Link to="/contatos" className="hover:text-slate-50 transition-colors">Frete para todo Brasil.</Link>
             </div>
           </div>
         </div>

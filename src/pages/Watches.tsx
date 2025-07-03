@@ -22,7 +22,7 @@ const WatchesPage: React.FC = () => {
                 <Clock className="h-6 w-6 text-slate-200" />
               </div>
               <div>
-                <h3 className="text-slate-200 font-medium">Garantia Vitalícia</h3>
+                <h3 className="text-slate-200 font-medium">Garantia 1 ano</h3>
                 <p className="text-slate-400 text-sm">Assistência técnica permanente</p>
               </div>
             </div>
